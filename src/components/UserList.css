@@ -1,0 +1,12 @@
+.users{
+  text-align: center;
+  list-style-type: none;
+  padding: 30px;
+  background-image: linear-gradient(to top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+img{
+  border-radius: 10px;
+}
+h4{
+  text-transform: uppercase;
+}
