@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/masterkors/ShowUser/precache-manifest.b2a6ebba1f43de983f7755ce330bd247.js"
+  "/ShowUser/precache-manifest.1e3de16901d0520f87a0d0dfd4ec78ec.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/masterkors/ShowUser/index.html", {
+workbox.routing.registerNavigationRoute("/ShowUser/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
